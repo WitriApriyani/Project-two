@@ -111,18 +111,18 @@ public class PlaceOrder {
 	
 	public void billingDetails() {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		this.firstName.sendKeys("testing");
-		this.lastName.sendKeys("98");
+		this.firstName.sendKeys("teswitri");
+		this.lastName.sendKeys("86");
 		js.executeScript("window.scrollBy(0,650)");
 		dropdownCountry.click();
 		this.inputCountry.sendKeys("Indonesia",Keys.ENTER);
 		this.address.sendKeys("Jakarta");
-		this.city.sendKeys("Jakarta Barat");
+		this.city.sendKeys("Jakarta Selatan");
 		dropdownProvince.click();
 		this.inputProvince.sendKeys("Dki Jakarta",Keys.ENTER);
-		this.zip.sendKeys("14701");
-		this.phone.sendKeys("080989999");
-		this.email.sendKeys("testing98@mail.com");
+		this.zip.sendKeys("12045");
+		this.phone.sendKeys("0812345678");
+		this.email.sendKeys("teswtr@gmail.com");
 	}
 	
 	public void terms() {

@@ -8,6 +8,6 @@ Feature: Login User
     
   Scenario: User invalid Login
     Given user navigate to login page
-    When user enter "testing11" as username & "OooSss10*" as password
+    When user enter "testing1212" as username & "0oOOo*1" as password
     And user click button login
     Then validate page with "invalid" scenario
